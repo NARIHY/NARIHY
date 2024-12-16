@@ -12,6 +12,7 @@
         "laravel/tinker": "^2.9",
         "livewire/livewire": "^3.5",
         "solution-forest/filament-access-management": "^2.2",
+        "solution-forest/filament-tree": "^2.1",
         "spatie/laravel-permission": "^6.10",
         "tomatophp/filament-logger": "^1.0",
         "tomatophp/filament-social": "^1.0"
