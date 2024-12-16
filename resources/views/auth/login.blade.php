@@ -39,9 +39,12 @@
                 </a>
             @endif
 
+
+
             <x-primary-button class="ms-3">
                 {{ __('Log in') }}
             </x-primary-button>
         </div>
+        <x-filament-social-share inline facebook twitter whatsapp linkedin copy print mail />
     </form>
 </x-guest-layout>

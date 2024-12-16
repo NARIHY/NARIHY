@@ -8,11 +8,14 @@ use Filament\Panel;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use SolutionForest\FilamentAccessManagement\Concerns\FilamentUserHelpers;
+use Spatie\Permission\Traits\HasRoles;
+use TomatoPHP\FilamentSocial\Traits\InteractsWithSocials;
 
 class User extends Authenticatable implements FilamentUser
 {
     /** @use HasFactory<\Database\Factories\UserFactory> */
-    use HasFactory, Notifiable;
+    use HasFactory, Notifiable, FilamentUserHelpers, HasRoles, InteractsWithSocials;
 
     /**
      * The attributes that are mass assignable.
