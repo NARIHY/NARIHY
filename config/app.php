@@ -124,5 +124,8 @@ return [
     ],
 
 
-
+    'aliases' => [
+        // Autres alias...
+        'Storage' => Illuminate\Support\Facades\Storage::class,
+    ],
 ];
