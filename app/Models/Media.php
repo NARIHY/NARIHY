@@ -11,7 +11,7 @@ class Media extends Model implements HasMedia
 {
     use HasFactory, InteractsWithMedia;
     protected $fillable = [
-        'name', 'url'
+        'name', 'url', 'media'
     ];
 
 

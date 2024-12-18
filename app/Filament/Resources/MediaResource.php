@@ -4,6 +4,8 @@ namespace App\Filament\Resources;
 
 use App\Filament\Resources\MediaResource\Pages;
 use App\Models\Media;
+use Filament\Forms\Components\FileUpload;
+use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
@@ -28,12 +30,32 @@ class MediaResource extends Resource
     public static function form(Form $form): Form
     {
         return $form
-            ->schema([
-                //
-            ]);
+        ->schema([
+            // Champ texte pour le nom du média
+            TextInput::make('name')
+                ->required()
+                ->label('Nom du média'),
+
+            // Champ URL pour le lien du média (si applicable)
+            TextInput::make('url')
+                ->required()
+                ->label('URL'),
+
+            // Champ de téléchargement de média (uniquement pour l'ajout ou la modification de l'image)
+            FileUpload::make('media')  // Ce champ permet d'ajouter un fichier
+                ->label('Télécharger une image')
+                ->disk('public') // Choisissez le disque où vous souhaitez stocker les médias (ici 'public')
+                ->directory('media/images')  // Optionnel : spécifiez le répertoire de stockage
+                ->image()  // Permet de n'accepter que des images
+                ->nullable()  // Autoriser le champ à être vide si l'image n'est pas modifiée
+        ]);
     }
 
 
+    public static function getNavigationBadge(): ?string
+    {
+        return static::getModel()::count();
+    }
 
     public static function table(Table $table): Table
     {
@@ -51,7 +73,6 @@ class MediaResource extends Resource
                     ->disk('public') // Si vous utilisez le disque public pour les médias
                     ->width(100)
                     ->height(100)
-                    ->formatStateUsing(fn (SpatieMedia $media) => $media->getUrl()), // Si le champ 'media' est une relation Spatie Media
             ])
             ->filters([
                 //
