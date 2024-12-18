@@ -3,16 +3,13 @@
 namespace App\Filament\Resources;
 
 use App\Filament\Resources\MediaResource\Pages;
-use App\Filament\Resources\MediaResource\RelationManagers;
 use App\Models\Media;
-use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 use Filament\Tables\Actions\Action;
-use Illuminate\Database\Eloquent\Builder;
 use Filament\Tables\Columns\ImageColumn;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 
@@ -23,7 +20,7 @@ class MediaResource extends Resource
 {
     protected static ?string $model = Media::class;
 
-    protected static ?string $navigationIcon = 'iconoir-media-image-folder';
+    protected static ?string $navigationIcon = 'heroicon-c-folder';
     protected static ?string $navigationLabel = 'Médias';
 
     protected static ?int $navigationSort = 3;

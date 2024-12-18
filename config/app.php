@@ -127,5 +127,10 @@ return [
     'aliases' => [
         // Autres alias...
         'Storage' => Illuminate\Support\Facades\Storage::class,
+        'Route'     => Illuminate\Support\Facades\Route::class,
+        'Auth' => Illuminate\Support\Facades\Auth::class,
     ],
+
+
+
 ];
