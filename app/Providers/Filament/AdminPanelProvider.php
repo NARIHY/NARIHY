@@ -20,6 +20,7 @@ use Illuminate\View\Middleware\ShareErrorsFromSession;
 use SolutionForest\FilamentAccessManagement\FilamentAccessManagementPanel;
 use App\Filament\Pages\Dashboard;
 use App\Filament\Resources\MediaResource;
+use \Croustibat\FilamentJobsMonitor\FilamentJobsMonitorPlugin;
 
 class AdminPanelProvider extends PanelProvider
 {
@@ -69,6 +70,9 @@ class AdminPanelProvider extends PanelProvider
                 \TomatoPHP\FilamentSocial\FilamentSocialPlugin::make()
                     ->socialLogin()
                     ->socialRegister()
-            );
+            )
+            ->plugins([
+                FilamentJobsMonitorPlugin::make()
+            ]);;
     }
 }

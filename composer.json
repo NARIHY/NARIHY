@@ -8,6 +8,7 @@
     "require": {
         "php": "^8.2",
         "blade-ui-kit/blade-heroicons": "^2.5",
+        "croustibat/filament-jobs-monitor": "^2.5",
         "dotswan/filament-laravel-pulse": "^1.1",
         "filament/filament": "^3.2.0",
         "hugomyb/filament-media-action": "^3.1",
