@@ -36,18 +36,13 @@ class MediaResource extends Resource
                 ->required()
                 ->label('Nom du média'),
 
-            // Champ URL pour le lien du média (si applicable)
-            TextInput::make('url')
-                ->required()
-                ->label('URL'),
-
             // Champ de téléchargement de média (uniquement pour l'ajout ou la modification de l'image)
             FileUpload::make('media')  // Ce champ permet d'ajouter un fichier
-                ->label('Télécharger une image')
+                ->label('Enregistrer un image')
                 ->disk('public') // Choisissez le disque où vous souhaitez stocker les médias (ici 'public')
-                ->directory('media/images')  // Optionnel : spécifiez le répertoire de stockage
-                ->image()  // Permet de n'accepter que des images
-                ->nullable()  // Autoriser le champ à être vide si l'image n'est pas modifiée
+                ->directory('media/images/'. date('Y-m-d').'/'. date('h:i:s').'Pictures')  // Optionnel : spécifiez le répertoire de stockage
+                // ->image()  // Permet de n'accepter que des images
+                ->required()  // Autoriser le champ à être vide si l'image n'est pas modifiée
         ]);
     }
 
@@ -63,9 +58,6 @@ class MediaResource extends Resource
             ->columns([
                 TextColumn::make('name')
                     ->sortable()
-                    ->searchable(),
-
-                TextColumn::make('url')
                     ->searchable(),
 
                 ImageColumn::make('media')
