@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DocumentController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -18,3 +19,8 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
+
+Route::prefix('/admin/documents-donwload')->name('Donwload.')->middleware('auth')->group( function() {
+    Route::get('/{id}/files', [DocumentController::class, 'download_document'])->name('Files.Download');
+});

@@ -12,6 +12,7 @@ use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Columns\TextColumn;
+use Filament\Tables\Columns\ViewColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
@@ -45,6 +46,9 @@ class FilesResource extends Resource
                 TextColumn::make('document_title')
                             ->sortable()
                             ->searchable(),
+                ViewColumn::make('paths')
+                            ->label('fichier')
+                            ->view('download.files-download'),
 
             ])
             ->filters([
