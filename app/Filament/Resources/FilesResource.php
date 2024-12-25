@@ -29,6 +29,7 @@ class FilesResource extends Resource
             ->schema([
                 TextInput::make('document_title')
                             ->label('Entrer le nom de votre document')
+                            ->unique()
                             ->required(),
 
                 FileUpload::make('paths')
