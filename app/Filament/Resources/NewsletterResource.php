@@ -71,7 +71,25 @@ class NewsletterResource extends Resource
                         ->sortable()
                         ->searchable()
                         ->view('download.files-download'),
+                TextColumn::make('author.name')
+                        ->label('Auteur')
+                        ->sortable()
+                        ->searchable(),
+                TextColumn::make('editors')
+                        ->label('Editeur')
+                        ->getStateUsing(function($record) {
+                            if (!$record->editors || $record->editors->isEmpty()) {
+                                return '';
+                            }
 
+                            return $record->editors->pluck('name')->join(', ');
+                        }),
+                TextColumn::make('created_at')
+                        ->label('Crée le')
+                        ->dateTime(),
+                TextColumn::make('updated_at')
+                        ->label('Mis à jour le')
+                        ->dateTime(),
             ])
             ->filters([
                 //
