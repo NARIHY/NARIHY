@@ -25,4 +25,9 @@ class Media extends Model implements HasMedia
     {
         return $this->hasMany(Newsletter::class);
     }
+
+    public function blog()
+    {
+        return $this->hasMany(Blog::class);
+    }
 }
