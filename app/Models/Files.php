@@ -14,4 +14,9 @@ class Files extends Model implements HasMedia
         'document_title',
         'paths'
     ];
+
+    public function newsletters()
+    {
+        return $this->hasMany(Newsletter::class);
+    }
 }

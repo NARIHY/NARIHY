@@ -8,10 +8,13 @@ use App\Models\Newsletter;
 use Filament\Forms;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
+use Filament\Forms\Components\Select;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Columns\TextColumn;
+use Filament\Tables\Columns\ImageColumn;
+use Filament\Tables\Columns\ViewColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
@@ -32,7 +35,19 @@ class NewsletterResource extends Resource
                             ->required(),
                 Textarea::make('description')
                             ->label('Description')
-                            ->required()
+                            ->required(),
+                Select::make('media_id')
+                            ->label('Media')
+                            ->relationship('media','name')
+                            ->nullable()
+                            ->reactive()
+                            ->afterStateUpdated(fn ($state, callable $set) => $set('file_id', null)),
+                Select::make('file_id')
+                            ->label('Fichier')
+                            ->relationship('file','document_title')
+                            ->nullable()
+                            ->reactive()
+                            ->afterStateUpdated(fn ($state, callable $set) => $set('media_id', null)),
             ]);
     }
 
@@ -45,7 +60,18 @@ class NewsletterResource extends Resource
                 TextColumn::make('title')
                         ->sortable()
                         ->label('titre')
+                        ->searchable(),
+                ImageColumn::make('media.media')
+                        ->label('Image')
+                        ->disk('public') // Si vous utilisez le disque public pour les médias
+                        ->width(100)
+                        ->height(100),
+                ViewColumn::make('file.paths')
+                        ->label('fichier')
+                        ->sortable()
                         ->searchable()
+                        ->view('download.files-download'),
+
             ])
             ->filters([
                 //

@@ -20,4 +20,9 @@ class Media extends Model implements HasMedia
         $this->addMediaCollection('images')
             ->singleFile();  // Si vous voulez une seule image par collection, vous pouvez utiliser "singleFile()"
     }
+
+    public function newsletters()
+    {
+        return $this->hasMany(Newsletter::class);
+    }
 }
