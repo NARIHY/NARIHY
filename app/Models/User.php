@@ -61,6 +61,11 @@ class User extends Authenticatable implements FilamentUser
         return $this->hasMany(Newsletter::class, 'author_id');
     }
 
+    public function authoredBlogs()
+    {
+        return $this->hasMany(Blog::class, 'author_id');
+    }
+
     public function editNewsletters()
     {
         return $this->belongsToMany(Newsletter::class, 'newsletter_user')->withTimestamps();

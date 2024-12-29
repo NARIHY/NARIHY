@@ -53,6 +53,10 @@ class BlogResource extends Resource
                         ->sortable()
                         ->label('titre du blog')
                         ->searchable(),
+                TextColumn::make('author.name')
+                        ->label('Auteur')
+                        ->sortable()
+                        ->searchable(),
                 ImageColumn::make('media.media')
                         ->label('Image')
                         ->disk('public') // Si vous utilisez le disque public pour les médias
