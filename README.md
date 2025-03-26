@@ -5,7 +5,7 @@
 ---
 
 ## 🛠️ **Compétences Techniques**  
-- **Langages & Frameworks :** PHP | Java | Laravel | Spring Boot | TypeScript | JavaScript | HTML | CSS  
+- **Langages & Frameworks :** PHP | Java | Laravel | Spring Boot | TypeScript | Angular | ReactJs | VueJs | JavaScript | HTML | CSS  
 - **Bases de données :** SQL  
 - **Outils :** Git | Autres frameworks  
 
