@@ -43,6 +43,7 @@ Bienvenue sur mon GitHub ! Je suis un développeur **full-stack** passionné par
 * 📊 **Game-go** – Une application fait en go pour explorer un peu les quiz.
 * 📝 **MBC** – Application qui expérimente une base de donnée avec Go (Pour exemple: Gestion d'une banque).
 * 📝 **React-starter-kit** - Une starter kit pour mieu débuter avec reactJs.
+* 📝 **Blog** - Devoir sur la technologie web m1.
 
 > 🌱 Je suis constamment en train d’apprendre : actuellement je me plonge dans **DevOps**, **CI/CD** et des concepts avancés d’**architecture logicielle**.
 
