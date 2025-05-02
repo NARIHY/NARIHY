@@ -14,20 +14,21 @@ Bienvenue sur mon GitHub ! Je suis un développeur **full-stack** passionné par
 ### 🌐 Frontend
 
 * HTML, CSS, JavaScript (ES6+)
-* React.js, Angular
+* React.js,Next.js, Angular
 * Bootstrap, Tailwind
 
 ### ⚙️ Backend
 
 * PHP (Laravel / Symfony)
-* Node.js (Express)
 * Java (Spring Boot)
 * Python (Django)
 
 ### 🗄️ Base de données
 
-* MySQL, PostgreSQL
-* MongoDB
+* MySQL
+* MariaDb
+* PostgreSQL
+* H2
 
 ### 🛠️ Outils & Autres
 
