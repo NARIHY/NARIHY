@@ -1,57 +1,53 @@
 # 👨‍💻 Narihy – Full-Stack Developer | Bug Lover
 
-Bienvenue sur mon GitHub ! Je suis un développeur **full-stack** passionné par le code, les bugs (eh oui, je les aime !), et l'exploration de nouvelles technologies.
+Bienvenue ! Je suis un développeur **full-stack** basé à Madagascar, passionné par le code, les bugs (oui, je les chasse avec plaisir !), et la création de solutions robustes et élégantes.
 
-## 🔍 À propos de moi
+## 🔥 Ce que je fais
 
-* 💡 Je suis curieux, toujours en train d'explorer de nouvelles stacks et frameworks.
-* 🐞 **Bug lover** : pour moi, chaque bug est une opportunité d'apprendre.
-* 🧩 J’aime résoudre des problèmes complexes et transformer des idées en solutions concrètes.
-* 🌍 Basé à Madagascar, ouvert aux **collaborations internationales**.
+* 💻 Développement full-stack avec une expertise sur **Spring Boot, JavaScript, WPF et PHP**.
+* 🐞 Résolution de bugs et optimisation d’applications : pour moi, chaque problème est une opportunité d’innover.
+* 🌐 Transformation d’idées complexes en solutions concrètes et fonctionnelles, avec une approche **clean code et architecture solide**.
+* 🌍 Collaborations internationales : j’aime travailler avec des équipes dynamiques et ambitieuses.
 
-## 🧰 Compétences techniques
+## 🧰 Mes super-pouvoirs techniques
 
-### 🌐 Frontend
+### Frontend
 
-* HTML, CSS, JavaScript (ES6+)
-* React.js,Next.js, Angular
-* Bootstrap, Tailwind
+* JavaScript (ES6+), React.js, Next.js, Angular
+* HTML, CSS, Tailwind, Bootstrap
+* WPF (C#) pour des applications desktop modernes
 
-### ⚙️ Backend
+### Backend
 
-* PHP (Laravel / Symfony)
 * Java (Spring Boot)
+* PHP (Laravel / Symfony)
 * Python (Django)
 
-### 🗄️ Base de données
+### Base de données
 
-* MySQL
-* MariaDb
-* PostgreSQL
-* H2
+* MySQL, MariaDB, PostgreSQL, H2
 
-### 🛠️ Outils & Autres
+### Outils & Méthodes
 
-* Git & GitHub
-* Docker, REST APIs
-* OOP, MVC, Clean Code
+* Git & GitHub, Docker, REST APIs
+* OOP, MVC, Clean Code, DevOps et CI/CD
 
-## 📂 Projets récents
+## 🚀 Projets récents
 
-* 🎮 **Fram-perso** – Mini-framework PHP orienté objet avec routage, vues et injection.
-* 📅 **Spring-starter-API** – Une starter kit pour débuter facilement avec du spring boot.
-* 📊 **Game-go** – Une application fait en go pour explorer un peu les quiz.
-* 📝 **MBC** – Application qui expérimente une base de donnée avec Go (Pour exemple: Gestion d'une banque).
-* 📝 **React-starter-kit** - Une starter kit pour mieu débuter avec reactJs.
-* 📝 **Blog** - Devoir sur la technologie web m1.
+* **Fram-perso** – Mini-framework PHP orienté objet avec routage et injection.
+* **Spring-starter-API** – Starter kit rapide pour Spring Boot.
+* **Game-go** – Application en Go pour les quiz et l’apprentissage interactif.
+* **MBC** – Gestion bancaire en Go, expérimentations sur bases de données.
+* **React-starter-kit** – Starter kit pour lancer rapidement des projets React.
+* **Blog** – Projet web universitaire (M1).
 
-> 🌱 Je suis constamment en train d’apprendre : actuellement je me plonge dans **DevOps**, **CI/CD** et des concepts avancés d’**architecture logicielle**.
+## 🤝 Travaillons ensemble
 
-## 🤝 Envie de collaborer ?
-
-Je suis toujours ouvert à des projets, missions freelances ou collaborations techniques.
-📬 N'hésite pas à me contacter sur GitHub ou via [LinkedIn](https://www.linkedin.com/in/randrianarisoa-mahenina-b2098225a).
+Je suis ouvert à des projets ambitieux, des missions freelance ou des collaborations techniques.
+📬 Contactez-moi via GitHub ou [LinkedIn](https://www.linkedin.com/in/randrianarisoa-mahenina-b2098225a).
 
 ---
 
-> *“Un bug n'est pas un problème, c’est un défi déguisé.”*
+> *“Un bug n’est pas un problème, c’est un défi déguisé.”*
+> Même concentré sur Spring Boot, JavaScript, WPF et PHP, je reste un **full-stack developer prêt à conquérir n’importe quel challenge**.
+
