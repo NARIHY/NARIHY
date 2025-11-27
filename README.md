@@ -34,13 +34,7 @@ Bienvenue ! Je suis un développeur **full-stack** basé à Madagascar, passionn
 
 ## 🚀 Projets récents
 
-* **Fram-perso** – Mini-framework PHP orienté objet avec routage et injection.
-* **Spring-starter-API** – Starter kit rapide pour Spring Boot.
-* **Game-go** – Application en Go pour les quiz et l’apprentissage interactif.
-* **MBC** – Gestion bancaire en Go, expérimentations sur bases de données.
-* **React-starter-kit** – Starter kit pour lancer rapidement des projets React.
-* **Blog** – Projet web universitaire (M1).
-
+* **Sekolybox** – SekolyBox est la plateforme en ligne de l’IS2M à Madagascar permettant aux futurs étudiants de gérer leurs pré‑inscriptions et candidatures avant le Bac. #(https://sekolybox.is2m.mg/home)
 ## 🤝 Travaillons ensemble
 
 Je suis ouvert à des projets ambitieux, des missions freelance ou des collaborations techniques.
