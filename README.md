@@ -25,7 +25,7 @@ Bienvenue ! Je suis un développeur **full-stack** basé à Madagascar, passionn
 
 ### Base de données
 
-* MySQL, MariaDB, PostgreSQL, H2
+* MySQL, MariaDB, PostgreSQL, H2, SQL SERVER
 
 ### Outils & Méthodes
 
