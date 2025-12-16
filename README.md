@@ -32,6 +32,11 @@ Bienvenue ! Je suis un développeur **full-stack** basé à Madagascar, passionn
 * Git & GitHub, Docker, REST APIs
 * OOP, MVC, Clean Code, DevOps et CI/CD
 
+* ## 📊 GitHub Stats
+
+![Narihy GitHub stats](https://github-readme-stats.vercel.app/api?username=Narihy&show_icons=true&theme=radical)
+
+
 ## 🚀 Projets récents
 
 * **Sekolybox** – SekolyBox est la plateforme en ligne de l’IS2M à Madagascar permettant aux futurs étudiants de gérer leurs pré‑inscriptions et candidatures avant le Bac. #(https://sekolybox.is2m.mg/home)
