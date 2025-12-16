@@ -36,6 +36,11 @@ Bienvenue ! Je suis un développeur **full-stack** basé à Madagascar, passionn
 
 ![Narihy GitHub stats](https://github-readme-stats.vercel.app/api?username=Narihy&show_icons=true&theme=radical)
 
+## 🏆 GitHub Trophies
+
+![trophy](https://github-profile-trophy.vercel.app/?username=Narihy&theme=onedark)
+
+
 
 ## 🚀 Projets récents
 
