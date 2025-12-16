@@ -32,13 +32,18 @@ Bienvenue ! Je suis un développeur **full-stack** basé à Madagascar, passionn
 * Git & GitHub, Docker, REST APIs
 * OOP, MVC, Clean Code, DevOps et CI/CD
 
-* ## 📊 GitHub Stats
+## 📊 Mes statistiques GitHub
 
-![Narihy GitHub stats](https://github-readme-stats.vercel.app/api?username=Narihy&show_icons=true&theme=radical)
+<div align="center">
 
-## 🏆 GitHub Trophies
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Narihy&show_icons=true&theme=radical&hide_border=true)
 
-![trophy](https://github-profile-trophy.vercel.app/?username=Narihy&theme=onedark)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Narihy&layout=compact&theme=radical&hide_border=true)
+
+![GitHub Streak](https://streak-stats.demolab.com?user=Narihy&theme=radical&hide_border=true)
+
+</div>
+
 
 
 
