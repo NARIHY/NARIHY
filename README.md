@@ -40,7 +40,8 @@ Bienvenue ! Je suis un développeur **full-stack** basé à Madagascar, passionn
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Narihy&layout=compact&theme=radical&hide_border=true)
 
-![GitHub Streak](https://streak-stats.demolab.com?user=Narihy&theme=radical&hide_border=true)
+![GitHub Streak][(https://streak-stats.demolab.com?user=Narihy&theme=radical&hide_border=true)](https://github-profile-trophy.vercel.app/?username=Narihy
+)
 
 </div>
 
